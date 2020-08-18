@@ -31,6 +31,7 @@ footer {
   color: #747474;
 }
 
-h1, h2, h3, {
-  font-weight: normal;
+h1, h2, h3 {
+  font-weight: bold;
+  font-style: italic;
 }
