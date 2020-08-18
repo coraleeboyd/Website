@@ -1,10 +1,13 @@
 body {
   background-color: #272727;
   color: #14A76C;
+  font-family: Lucida Grande;
 }
+
 h1 {
   color: #FF652F;
 }
+
 footer {
   color: #747474;
 }
