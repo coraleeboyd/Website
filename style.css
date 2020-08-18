@@ -15,23 +15,56 @@ body {
 h1 {
   color: #FF652F;
   font-size: 36px;
+  text-align: left;
+}
+
+header h1 {
+  text-align: center;
 }
 
 h2{
   color: #FF652F;
   font-size: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 h3 {
   color:#FF652F;
   font-size: 18px;
+
 }
 
 footer {
   color: #747474;
+  text-align: right;
+
 }
 
 h1, h2, h3 {
   font-weight: bold;
   font-style: italic;
+}
+
+section p {
+    line-height: 2;
+    text-align: center;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
 }
