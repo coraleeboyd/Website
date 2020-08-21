@@ -13,6 +13,9 @@ body {
   color: #14A76C;
   font-family: 'cinzel', Lucida Grande;
   font-size: 14px;
+  margin: 50px;
+  background-image: url(images/halftoneyellow.png);
+  background-repeat: repeat;
 }
 
 header {
@@ -84,12 +87,10 @@ section {
   background-color: white;
   margin: 30px;
   padding: 30px;
-  width: 50%;
-  height: 50%;
 }
 
 img {
-  height: 300px;
+  align: center;
 }
 
 a:link,
@@ -105,4 +106,44 @@ a:hover {
 
 a:visited {
   color: grey;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.box {
+  font-size: 24px;
+}
+
+.box {
+  background-image: url(file.jpg)
+  width: 100px
+  height: 100px
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/sunrise.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo {
+  background-position: 50% right;
+}
+
+.icon {
+  background-position: 0 100px
+}
+
+.box {
+  background-image: url(sunrise.jpg);
+  background-size: 100%;
 }
